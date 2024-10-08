@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"marca": "Artesanía # 1",
+		"imagen": "img/artesania1.jpeg",
+		"precio": "100.00",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 2,
+		"marca": "Artesanía # 2",
+		"imagen": "img/artesania2.jpeg",
+		"precio": "200.50",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 3,
+		"marca": "Artesanía # 3",
+		"imagen": "img/artesania3.jpeg",
+		"precio": "300.00",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 4,
+		"marca": "Artesanía # 4",
+		"imagen": "img/artesania4.jpeg",
+		"precio": "150.50",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 5,
+		"marca": "Artesanía # 5",
+		"imagen": "img/artesania5.jpeg",
+		"precio": "250.25",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 6,
+		"marca": "Artesanía # 6",
+		"imagen": "img/artesania6.jpeg",
+		"precio": "375.35",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 7,
+		"marca": "Artesanía # 7",
+		"imagen": "img/artesania7.jpeg",
+		"precio": "50.22",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 8,
+		"marca": "Artesanía # 8",
+		"imagen": "img/artesania8.jpeg",
+		"precio": "65.20",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	},
+	{
+		"id": 9,
+		"marca": "Artesanía # 9",
+		"imagen": "img/artesania9.jpeg",
+		"precio": "75.50",
+		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+	}
+]
