@@ -37,7 +37,7 @@ function cargarEventos() {
 
 async function fetchProductos() {
 	// let res = await fetch("../data/productos.json");
-	let res = await fetch("https://github.com/codefivestar/PanamaCraft/blob/main/data/productos.json");
+	let res = await fetch("https://raw.githubusercontent.com/codefivestar/PanamaCraft/refs/heads/main/data/productos.json");
 	let data = await res.json();
 	let html = "";
 	data.forEach((producto, index) => {
