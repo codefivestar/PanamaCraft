@@ -42,7 +42,7 @@ function procesarCompra() {
             title: 'Oops...',
             text: 'Ingrese todos los campos requeridos',
             showConfirmButton: false,
-            timer: 5000
+            timer: 2000
         })
     }
     else {
