@@ -29,9 +29,9 @@ function procesarCompra() {
         Swal.fire({
             type: 'error',
             title: 'Oops...',
-            text: 'No hay productos, selecciona alguno',
+            text: 'No hay productos, selecciona alguno.',
             showConfirmButton: false,
-            timer: 2000
+            timer: 6000
         }).then(function () {
             window.location = "index.html";
         })
@@ -40,9 +40,9 @@ function procesarCompra() {
         Swal.fire({
             type: 'error',
             title: 'Oops...',
-            text: 'Ingrese todos los campos requeridos',
-            showConfirmButton: false,
-            timer: 2000
+            text: 'Ingrese todos los campos requeridos.',
+            showConfirmButton: true,
+            timer: 6000
         })
     }
     else {
@@ -62,12 +62,11 @@ function procesarCompra() {
         //Send email option 1
         // productosLS.forEach(function (producto) {
         //     textArea.innerHTML += `
-        //          Producto : ${producto.titulo} <br>
-        //          Precio : ${producto.precio} <br>
-        //          Cantidad: ${producto.cantidad} <br>
-        //         --------------------------------------------- <br>
-        //         `;
-        // });
+        //                             Producto : ${producto.titulo} <br>
+        //                             Precio : ${producto.precio} <br>
+        //                             Cantidad: ${producto.cantidad} <br>
+        //                             --------------------------------------------- <br>
+        //                           `;});
         //End option 1
 
         //Send email option 2
@@ -86,13 +85,14 @@ function procesarCompra() {
                 cargandoGif.style.display = 'block';
 
                 const enviado = document.createElement('img');
-                enviado.src = 'img/mail.gif';
+                enviado.src = 'img/assets/mail.gif';
                 enviado.style.display = 'block';
                 enviado.width = '150';
 
                 const serviceID = 'pancraft_ejsid_3zl7eab';
                 const templateID = 'template_yihowfk';
 
+                // emailjs.sendForm(serviceID, templateID, this)
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         cargandoGif.style.display = 'none';
@@ -102,7 +102,7 @@ function procesarCompra() {
                             compra.vaciarLocalStorage();
                             enviado.remove();
                             window.location = "index.html";
-                        }, 2000);
+                        }, 5000);
                     }, (err) => {
                         cargandoGif.style.display = 'none';
                         alert("Error al enviar el email\r\n Response:\n " + JSON.stringify(err));
