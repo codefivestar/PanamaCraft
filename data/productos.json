@@ -1,65 +1,107 @@
 [
 	{
 		"id": 1,
-		"marca": "Artesanía # 1",
-		"imagen": "img/productos/artesania1.jpeg",
-		"precio": "100.00",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Blusa",
+		"imagen": "img/products/IMG-20241013-WA0001.png",
+		"precio": "50.00",
+		"detalles": ["Blusa", "Naguas"]
 	},
 	{
 		"id": 2,
-		"marca": "Artesanía # 2",
-		"imagen": "img/productos/artesania2.jpeg",
-		"precio": "200.50",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Montuna",
+		"imagen": "img/products/IMG-20241013-WA0002.png",
+		"precio": "700.00",
+		"detalles": ["Pollera", "Montuna"]
 	},
 	{
 		"id": 3,
-		"marca": "Artesanía # 3",
-		"imagen": "img/productos/artesania3.jpeg",
+		"marca": "Pollera Típica",
+		"imagen": "img/products/IMG-20241013-WA0003.png",
 		"precio": "300.00",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"detalles": ["Pollera", "Típica"]
 	},
 	{
 		"id": 4,
-		"marca": "Artesanía # 4",
-		"imagen": "img/productos/artesania4.jpeg",
-		"precio": "150.50",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Amanecer Panameño",
+		"imagen": "img/products/IMG-20241013-WA0004.png",
+		"precio": "50.00",
+		"detalles": ["Amanecer", "Panameño"]
 	},
 	{
 		"id": 5,
-		"marca": "Artesanía # 5",
-		"imagen": "img/productos/artesania5.jpeg",
-		"precio": "250.25",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Montuno Ocueño",
+		"imagen": "img/products/IMG-20241013-WA0005.png",
+		"precio": "80.00",
+		"detalles": ["Montuno", "Ocueño"]
 	},
 	{
 		"id": 6,
-		"marca": "Artesanía # 6",
-		"imagen": "img/productos/artesania6.jpeg",
-		"precio": "375.35",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Cintas Bordadas",
+		"imagen": "img/products/IMG-20241013-WA0006.png",
+		"precio": "20.00",
+		"detalles": ["Cintas", "Bordadas"]
 	},
 	{
 		"id": 7,
-		"marca": "Artesanía # 7",
-		"imagen": "img/productos/artesania7.jpeg",
-		"precio": "50.22",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Montuna de Gala",
+		"imagen": "img/products/IMG-20241013-WA0007.png",
+		"precio": "1000.00",
+		"detalles": ["Montuna", "Gala"]
 	},
 	{
 		"id": 8,
-		"marca": "Artesanía # 8",
-		"imagen": "img/productos/artesania8.jpeg",
-		"precio": "65.20",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Traje Típico",
+		"imagen": "img/products/IMG-20241013-WA0008.png",
+		"precio": "70.00",
+		"detalles": ["Traje", "Típico"]
 	},
 	{
 		"id": 9,
-		"marca": "Artesanía # 9",
-		"imagen": "img/productos/artesania9.jpeg",
-		"precio": "75.50",
-		"detalles": ["Molas Coloridas", "Sombrero Tejido", "Cerámica", "Tembleques para niñas"]
+		"marca": "Naguas",
+		"imagen": "img/products/IMG-20241013-WA0009.png",
+		"precio": "90.00",
+		"detalles": ["Naguas", "Traje"]
+	},
+	{
+		"id": 10,
+		"marca": "Cabeza de Caballo",
+		"imagen": "img/products/IMG-20241013-WA0010.png",
+		"precio": "100.00",
+		"detalles": ["Escultura", "Madera"]
+	},
+	{
+		"id": 11,
+		"marca": "Sombrero de Junco",
+		"imagen": "img/products/IMG-20241013-WA0011.png",
+		"precio": "150.00",
+		"detalles": ["Sombrero", "Junco"]
+	},
+	{
+		"id": 12,
+		"marca": "Congoleño",
+		"imagen": "img/products/IMG-20241013-WA0012.png",
+		"precio": "100.00",
+		"detalles": ["Congoleño", "Tpico"]
+	},
+	{
+		"id": 13,
+		"marca": "Pendientes de Abalorios",
+		"imagen": "img/products/IMG-20241013-WA0013.png",
+		"precio": "30.00",
+		"detalles": ["Pendientes", "Abalorios"]
+	},
+	{
+		"id": 14,
+		"marca": "Aretes de Chaquiras",
+		"imagen": "img/products/IMG-20241013-WA0014.png",
+		"precio": "25.00",
+		"detalles": ["Aretes", "Chaquiras"]
+	},
+	{
+		"id": 15,
+		"marca": "Congoleño",
+		"imagen": "img/products/IMG-20241013-WA0015.png",
+		"precio": "100.00",
+		"detalles": ["Congoleño", "Típico"]
 	}
 ]
