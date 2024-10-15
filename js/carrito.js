@@ -34,7 +34,7 @@ class Carrito {
                 title: 'Oops...',
                 text: 'El producto ya está agregado',
                 showConfirmButton: false,
-                timer: 1000
+                timer: 2000
             })
         }
         else {
@@ -198,7 +198,7 @@ class Carrito {
     //Calcular montos
     calcularTotal(){
         let productosLS;
-        let total = 0, igv = 0, subtotal = 0;
+        let total = 0, igv = 0;
         productosLS = this.obtenerProductosLocalStorage();
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
@@ -206,12 +206,14 @@ class Carrito {
             
         }
         
-        igv = parseFloat(total * 0.18).toFixed(2);
-        subtotal = parseFloat(total-igv).toFixed(2);
+        igv = parseFloat(total * 0.07).toFixed(2);
+        let subtotal = Number(total) +  Number(igv);
 
-        document.getElementById('subtotal').innerHTML = "$ " + subtotal;
-        document.getElementById('igv').innerHTML = "$ " + igv;
-        document.getElementById('total').value = "$ " + total.toFixed(2);
+        document.getElementById('subtotal').innerHTML = "$/. " + total.toFixed(2);
+        document.getElementById('igv').innerHTML = "$/. " + igv;
+        document.getElementById('total').value = "$/. " + subtotal.toFixed(2);
+
+
     }
 
     obtenerEvento(e) {
