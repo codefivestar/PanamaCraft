@@ -199,11 +199,12 @@ class Carrito {
     calcularTotal(){
         let productosLS;
         let total = 0, igv = 0;
+        
         productosLS = this.obtenerProductosLocalStorage();
+        
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
             total = total + element;
-            
         }
         
         igv = parseFloat(total * 0.07).toFixed(2);
@@ -212,19 +213,22 @@ class Carrito {
         document.getElementById('subtotal').innerHTML = "$/. " + total.toFixed(2);
         document.getElementById('igv').innerHTML = "$/. " + igv;
         document.getElementById('total').value = "$/. " + subtotal.toFixed(2);
-
-
     }
 
     obtenerEvento(e) {
+        
         e.preventDefault();
+        
         let id, cantidad, producto, productosLS;
+        
         if (e.target.classList.contains('cantidad')) {
+        
             producto = e.target.parentElement.parentElement;
             id = producto.querySelector('a').getAttribute('data-id');
             cantidad = producto.querySelector('input').value;
             let actualizarMontos = document.querySelectorAll('#subtotales');
             productosLS = this.obtenerProductosLocalStorage();
+        
             productosLS.forEach(function (productoLS, index) {
                 if (productoLS.id === id) {
                     productoLS.cantidad = cantidad;                    
