@@ -26,23 +26,26 @@ function cargarEventos() {
 function procesarCompra() {
     // e.preventDefault();
     if (compra.obtenerProductosLocalStorage().length === 0) {
+
         Swal.fire({
             type: 'error',
             title: 'Oops...',
             text: 'No hay productos, selecciona alguno.',
             showConfirmButton: false,
-            timer: 6000
+            timer: 8000
         }).then(function () {
             window.location = "index.html";
         })
+
     }
     else if (cliente.value === '' || correo.value === '') {
+        
         Swal.fire({
             type: 'error',
             title: 'Oops...',
             text: 'Ingrese todos los campos requeridos.',
-            showConfirmButton: true,
-            timer: 6000
+            showConfirmButton: false,
+            timer: 8000
         })
     }
     else {
