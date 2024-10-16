@@ -35,18 +35,18 @@ function procesarCompra() {
             timer: 8000
         }).then(function () {
             window.location = "index.html";
-        })
+        });
 
     }
     else if (cliente.value === '' || correo.value === '') {
         
-        Swal.fire({
-            type: 'error',
-            title: 'Oops...',
-            text: 'Ingrese todos los campos requeridos.',
-            showConfirmButton: false,
-            timer: 8000
-        })
+         Swal.fire({
+             type: 'error',
+             title: 'Oops...',
+             text: 'Ingrese todos los campos requeridos.',
+             showConfirmButton: false,
+             timer: 8000
+         });
     }
     else {
 
@@ -74,6 +74,7 @@ function procesarCompra() {
 
         //Send email option 2
         textArea.innerHTML = generarTabla(productosLS).innerHTML;
+        //console.log(textArea.value);
         //End option 2
 
         carrito.appendChild(textArea);
