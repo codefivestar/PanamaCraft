@@ -25,7 +25,7 @@
 		"marca": "Amanecer Panameño",
 		"imagen": "img/products/IMG-20241013-WA0004.png",
 		"precio": "50.00",
-		"detalles": ["Amanecer", "Panameño"]
+		"detalles": ["Amanecer Panameño", "Elegancia Panameña"]
 	},
 	{
 		"id": 5,
@@ -39,21 +39,21 @@
 		"marca": "Cintas Bordadas",
 		"imagen": "img/products/IMG-20241013-WA0006.png",
 		"precio": "20.00",
-		"detalles": ["Cintas", "Bordadas"]
+		"detalles": ["Cintas", "Bordadas", "Espíritu de la Comarca"]
 	},
 	{
 		"id": 7,
 		"marca": "Montuna de Gala",
 		"imagen": "img/products/IMG-20241013-WA0007.png",
 		"precio": "1000.00",
-		"detalles": ["Montuna", "Gala"]
+		"detalles": ["Montuna", "Gala" , "Elegancia Panameña"]
 	},
 	{
 		"id": 8,
 		"marca": "Traje Típico",
 		"imagen": "img/products/IMG-20241013-WA0008.png",
 		"precio": "70.00",
-		"detalles": ["Traje", "Típico"]
+		"detalles": ["Traje", "Típico", "Cielo Comarcal"]
 	},
 	{
 		"id": 9,
@@ -81,7 +81,7 @@
 		"marca": "Congoleño",
 		"imagen": "img/products/IMG-20241013-WA0012.png",
 		"precio": "100.00",
-		"detalles": ["Congoleño", "Tpico"]
+		"detalles": ["Congoleño", "Típico", "Esencia Africana"]
 	},
 	{
 		"id": 13,
@@ -102,6 +102,6 @@
 		"marca": "Congoleño",
 		"imagen": "img/products/IMG-20241013-WA0015.png",
 		"precio": "100.00",
-		"detalles": ["Congoleño", "Típico"]
+		"detalles": ["Congoleño", "Típico", "Esencia Africana"]
 	}
 ]
