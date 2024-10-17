@@ -74,13 +74,14 @@ function procesarCompra() {
 
         //Send email option 2
         textArea.innerHTML = generarTabla(productosLS).innerHTML;
-        //console.log(textArea.value);
         //End option 2
 
         carrito.appendChild(textArea);
+        //console.log(carrito.innerHTML);
 
+        
+        
         /* ------------------------- */
-
         document.getElementById('procesar-pago')
             .addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -94,9 +95,17 @@ function procesarCompra() {
                 enviado.width = '150';
 
                 const serviceID = 'pancraft_ejsid_3zl7eab';
-                const templateID = 'template_yihowfk';
+                const templateID = 'template_25ddo9x';
 
-                // emailjs.sendForm(serviceID, templateID, this)
+                /*
+                    const htmlContent = carrito.innerHTML;
+                    const templateParams = {
+                        html_content: htmlContent
+                    };
+                */
+
+                   console.log(this.innerHTML);
+
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         cargandoGif.style.display = 'none';
@@ -107,14 +116,15 @@ function procesarCompra() {
                             enviado.remove();
                             window.location = "index.html";
                         }, 5000);
+
                     }, (err) => {
                         cargandoGif.style.display = 'none';
                         alert("Error al enviar el email\r\n Response:\n " + JSON.stringify(err));
                     });
+                  
             });
     }
 }
-
 
 function generarTabla(productosLS) {
     let div = document.createElement("div");
