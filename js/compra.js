@@ -78,8 +78,6 @@ function procesarCompra() {
 
         carrito.appendChild(textArea);
         //console.log(carrito.innerHTML);
-
-        
         
         /* ------------------------- */
         document.getElementById('procesar-pago')
@@ -104,7 +102,7 @@ function procesarCompra() {
                     };
                 */
 
-                   console.log(this.innerHTML);
+                // console.log(this.innerHTML);
 
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
